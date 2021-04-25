@@ -1,13 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+*,*::after,*::before {
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Comfortaa', cursive;
+  color:#222222;
+  background-color: rgb(235, 235, 235);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+input, select {
+  border: none;
+  outline: none;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 5px;
+  font-size:16px ;
+}
+
+button {
+  font-family: 'Comfortaa', cursive;
+  background-color: #233f74;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 5px;
+  font-size:14px ;
+  cursor: pointer;
+}
+h1 {
+  text-align: center;
+}
+
+h2 {
+  color:#233f74;
+}
+
+/* General */
+
+.negative{
+  color: crimson;
+  background-color: transparent;
 }
